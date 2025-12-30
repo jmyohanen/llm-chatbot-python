@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Create the LLM
-from langchain_openai import ChatOpenAI
+from langchain_openai import ChatOpenAI,OpenAIEmbeddings
 
 llm = ChatOpenAI(
     openai_api_key=st.secrets["OPENAI_API_KEY"],
