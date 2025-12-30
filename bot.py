@@ -12,6 +12,7 @@ if "messages" not in st.session_state:
     ]
 
 # Submit handler
+# Submit handler
 def handle_submit(message):
     """
     Submit handler:
