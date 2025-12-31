@@ -61,6 +61,7 @@ Question:
 """
 
 cypher_prompt = PromptTemplate.from_template(CYPHER_GENERATION_TEMPLATE)
+
 # Create the Cypher QA chain
 cypher_qa = GraphCypherQAChain.from_llm(
     llm,
